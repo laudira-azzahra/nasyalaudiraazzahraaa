@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(61, 72.20%, 54.90%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    color: hwb(271 6% 35%);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: #ebddf0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+form .btn {
+    padding: 10px;
+    background: hsl(305, 100%, 50%);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form .btn:hover {
+    background: #0056b3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd ;
+}
+
+.table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: transform 0.1s;
+}
+
+.btn-success {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-warning {
+    background: #ffc107;
+    color: #fff;
+}
+
+.btn-danger {
+    background: #dc3545;
+    color: #fff;
+}
+
+.btn:hover:hover {
+    transform: translateY(-2px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(246, 250, 242, 0.1);
+}
+    
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Animasi sederhana untuk loading */
+@keyframes fadeIn {
+    from {apacity: 0;}
+    to {apacity: 1;}
+}
+
+.container {
+    animation: fadeIn 0.5 ease;
+}
